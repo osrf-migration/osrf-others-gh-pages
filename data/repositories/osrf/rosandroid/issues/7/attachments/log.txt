@@ -1,0 +1,368 @@
+/android/android_app_chooser/AppChooser.java:94: error: cannot find symbol
+    [javac] 	private ArrayList<App> availableAppsCache;
+    [javac] 	                  ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:95: error: cannot find symbol
+    [javac] 	private ArrayList<App> runningAppsCache;
+    [javac] 	                  ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:96: error: cannot find symbol
+    [javac] 	private AppManager appManager;
+    [javac] 	        ^
+    [javac]   symbol:   class AppManager
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:335: error: cannot find symbol
+    [javac] 	public void validateRobot(final RobotId id) {
+    [javac] 	                                ^
+    [javac]   symbol:   class RobotId
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:531: error: cannot find symbol
+    [javac] 	public void onAppClicked(final App app, final boolean isClientApp) {
+    [javac] 	                               ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:700: error: cannot find symbol
+    [javac] 	protected void updateAppList(final ArrayList<App> apps,
+    [javac] 	                                             ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:701: error: cannot find symbol
+    [javac] 			final ArrayList<App> runningApps) {
+    [javac] 			                ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:208: error: cannot find symbol
+    [javac] 		private RosAppActivity activity;
+    [javac] 		        ^
+    [javac]   symbol:   class RosAppActivity
+    [javac]   location: class AppChooser.ProgressDialogWrapper
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:210: error: cannot find symbol
+    [javac] 		public ProgressDialogWrapper(RosAppActivity activity) {
+    [javac] 		                             ^
+    [javac]   symbol:   class RosAppActivity
+    [javac]   location: class AppChooser.ProgressDialogWrapper
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:128: error: cannot find symbol
+    [javac] 		private RosAppActivity context;
+    [javac] 		        ^
+    [javac]   symbol:   class RosAppActivity
+    [javac]   location: class AppChooser.AlertDialogWrapper
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:130: error: cannot find symbol
+    [javac] 		public AlertDialogWrapper(RosAppActivity context,
+    [javac] 		                          ^
+    [javac]   symbol:   class RosAppActivity
+    [javac]   location: class AppChooser.AlertDialogWrapper
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:151: error: cannot find symbol
+    [javac] 		public AlertDialogWrapper(RosAppActivity context,
+    [javac] 		                          ^
+    [javac]   symbol:   class RosAppActivity
+    [javac]   location: class AppChooser.AlertDialogWrapper
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppLauncher.java:47: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.AppManager;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppLauncher.java:48: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.RobotDescription;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppLauncher.java:49: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.RosAppActivity;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppLauncher.java:52: error: package app_manager does not exist
+    [javac] import app_manager.ClientApp;
+    [javac]                   ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppLauncher.java:60: error: cannot find symbol
+    [javac]   static public boolean launch(final RosAppActivity parentActivity, app_manager.App app, URI uri,RobotDescription currentRobot,boolean runningNodes) {
+    [javac]                                      ^
+    [javac]   symbol:   class RosAppActivity
+    [javac]   location: class AppLauncher
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppLauncher.java:60: error: package app_manager does not exist
+    [javac]   static public boolean launch(final RosAppActivity parentActivity, app_manager.App app, URI uri,RobotDescription currentRobot,boolean runningNodes) {
+    [javac]                                                                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppLauncher.java:60: error: cannot find symbol
+    [javac]   static public boolean launch(final RosAppActivity parentActivity, app_manager.App app, URI uri,RobotDescription currentRobot,boolean runningNodes) {
+    [javac]                                                                                                  ^
+    [javac]   symbol:   class RobotDescription
+    [javac]   location: class AppLauncher
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/ClientAppData.java:42: error: package app_manager does not exist
+    [javac] import app_manager.ClientApp;
+    [javac]                   ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/ClientAppData.java:43: error: package app_manager does not exist
+    [javac] import app_manager.KeyValue;
+    [javac]                   ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/ClientAppData.java:51: error: package app_manager does not exist
+    [javac]   public List<app_manager.KeyValue> appData;
+    [javac]                          ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/ClientAppData.java:53: error: package app_manager does not exist
+    [javac]   public ClientAppData(app_manager.ClientApp clientApp) {
+    [javac]                                   ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/ClientAppData.java:82: error: cannot find symbol
+    [javac]   private HashMap<String, String> keyValueListToMap(List<KeyValue> kvl) {
+    [javac]                                                          ^
+    [javac]   symbol:   class KeyValue
+    [javac]   location: class ClientAppData
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterAdapter.java:41: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.RobotDescription;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:44: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.WifiChecker;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:45: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.ControlChecker;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:46: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.MasterChecker;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:47: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.RobotDescription;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:56: error: package MasterChecker does not exist
+    [javac] public class MasterItem implements MasterChecker.RobotDescriptionReceiver,
+    [javac]                                                 ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:57: error: package MasterChecker does not exist
+    [javac]                                    MasterChecker.FailureHandler,
+    [javac]                                                 ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:58: error: package ControlChecker does not exist
+    [javac]                                    ControlChecker.SuccessHandler,
+    [javac]                                                  ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:59: error: package ControlChecker does not exist
+    [javac]                                    ControlChecker.FailureHandler {
+    [javac]                                                  ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/RobotMasterChooser.java:77: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.RobotDescription;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/RobotMasterChooser.java:78: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.RobotId;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/RobotMasterChooser.java:79: error: package org.ros.android.robotapp.zxing does not exist
+    [javac] import org.ros.android.robotapp.zxing.IntentIntegrator;
+    [javac]                                      ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/RobotMasterChooser.java:80: error: package org.ros.android.robotapp.zxing does not exist
+    [javac] import org.ros.android.robotapp.zxing.IntentResult;
+    [javac]                                      ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/RobotMasterChooser.java:81: error: package org.ros.android.robotapp does not exist
+    [javac] import org.ros.android.robotapp.RobotsContentProvider;
+    [javac]                                ^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterAdapter.java:50: error: cannot find symbol
+    [javac]   public MasterAdapter(RobotMasterChooser rmc, List<RobotDescription> robots) {
+    [javac]                                                     ^
+    [javac]   symbol:   class RobotDescription
+    [javac]   location: class MasterAdapter
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:60: error: cannot find symbol
+    [javac]   private ControlChecker controlChecker;
+    [javac]           ^
+    [javac]   symbol:   class ControlChecker
+    [javac]   location: class MasterItem
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:61: error: cannot find symbol
+    [javac]   private MasterChecker checker;
+    [javac]           ^
+    [javac]   symbol:   class MasterChecker
+    [javac]   location: class MasterItem
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:63: error: cannot find symbol
+    [javac]   private RobotDescription description;
+    [javac]           ^
+    [javac]   symbol:   class RobotDescription
+    [javac]   location: class MasterItem
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:67: error: cannot find symbol
+    [javac]   public MasterItem(RobotDescription robotDescription, RobotMasterChooser parentMca) {
+    [javac]                     ^
+    [javac]   symbol:   class RobotDescription
+    [javac]   location: class MasterItem
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/MasterItem.java:98: error: cannot find symbol
+    [javac]   public void receive(RobotDescription robotDescription) {
+    [javac]                       ^
+    [javac]   symbol:   class RobotDescription
+    [javac]   location: class MasterItem
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/RobotMasterChooser.java:97: error: cannot find symbol
+    [javac] 	private List<RobotDescription> robots;
+    [javac] 	             ^
+    [javac]   symbol:   class RobotDescription
+    [javac]   location: class RobotMasterChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/RobotMasterChooser.java:191: error: cannot find symbol
+    [javac] 	private void addMaster(RobotId robotId) {
+    [javac] 	                       ^
+    [javac]   symbol:   class RobotId
+    [javac]   location: class RobotMasterChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/RobotMasterChooser.java:195: error: cannot find symbol
+    [javac] 	private void addMaster(RobotId robotId, boolean connectToDuplicates) {
+    [javac] 	                       ^
+    [javac]   symbol:   class RobotId
+    [javac]   location: class RobotMasterChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppAdapter.java:83: error: cannot find symbol
+    [javac]     for (App c : this.runningApps) {
+    [javac]          ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppAdapter
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppAdapter.java:99: error: cannot find symbol
+    [javac]     App app = apps.get(position);
+    [javac]     ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppAdapter
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:114: error: cannot find symbol
+    [javac] 			runOnUiThread(new Runnable() {
+    [javac] 			^
+    [javac]   symbol:   method runOnUiThread(<anonymous Runnable>)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:236: error: cannot find symbol
+    [javac] 		availableAppsCache = new ArrayList<App>();
+    [javac] 		                                   ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:237: error: cannot find symbol
+    [javac] 		runningAppsCache = new ArrayList<App>();
+    [javac] 		                                 ^
+    [javac]   symbol:   class App
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:243: error: cannot find symbol
+    [javac] 		String defaultRobotName = getString(R.string.default_robot);
+    [javac] 		                          ^
+    [javac]   symbol:   method getString(int)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:244: error: cannot find symbol
+    [javac] 		setDefaultRobotName(defaultRobotName);
+    [javac] 		^
+    [javac]   symbol:   method setDefaultRobotName(String)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:245: error: cannot find symbol
+    [javac] 		setDefaultAppName(null);
+    [javac] 		^
+    [javac]   symbol:   method setDefaultAppName(<null>)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:246: error: cannot find symbol
+    [javac] 		setDashboardResource(R.id.top_bar);
+    [javac] 		^
+    [javac]   symbol:   method setDashboardResource(int)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:247: error: cannot find symbol
+    [javac] 		setMainWindowResource(R.layout.main);
+    [javac] 		^
+    [javac]   symbol:   method setMainWindowResource(int)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:248: error: cannot find symbol
+    [javac] 		super.onCreate(savedInstanceState);
+    [javac] 		^
+    [javac]   symbol:   variable super
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:250: error: cannot find symbol
+    [javac] 		robotNameView = (TextView) findViewById(R.id.robot_name_view);
+    [javac] 		                           ^
+    [javac]   symbol:   method findViewById(int)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:251: error: cannot find symbol
+    [javac] 		deactivate = (Button) findViewById(R.id.deactivate_robot);
+    [javac] 		                      ^
+    [javac]   symbol:   method findViewById(int)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:253: error: cannot find symbol
+    [javac] 		stopApps = (Button) findViewById(R.id.stop_applications);
+    [javac] 		                    ^
+    [javac]   symbol:   method findViewById(int)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:255: error: cannot find symbol
+    [javac] 		exchangeButton = (Button) findViewById(R.id.exchange_button);
+    [javac] 		                          ^
+    [javac]   symbol:   method findViewById(int)
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:241: error: method does not override or implement a method from a supertype
+    [javac] 	@Override
+    [javac] 	^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:262: error: cannot find symbol
+    [javac] 		super.init(nodeMainExecutor);
+    [javac] 		^
+    [javac]   symbol:   variable super
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:265: error: cannot find symbol
+    [javac] 				.newNonLoopback().getHostAddress(), getMasterUri());
+    [javac] 				                                    ^
+    [javac]   symbol:   method getMasterUri()
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:269: error: cannot find symbol
+    [javac] 		appManager = new AppManager("", getRobotNameSpace());
+    [javac] 		                 ^
+    [javac]   symbol:   class AppManager
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:269: error: cannot find symbol
+    [javac] 		appManager = new AppManager("", getRobotNameSpace());
+    [javac] 		                                ^
+    [javac]   symbol:   method getRobotNameSpace()
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:259: error: method does not override or implement a method from a supertype
+    [javac] 	@Override
+    [javac] 	^
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:277: error: cannot find symbol
+    [javac] 		if (resultCode == RESULT_CANCELED) {
+    [javac] 		                  ^
+    [javac]   symbol:   variable RESULT_CANCELED
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:278: error: cannot find symbol
+    [javac] 			onDestroy();
+    [javac] 			^
+    [javac]   symbol:   method onDestroy()
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:279: error: cannot find symbol
+    [javac] 		} else if (resultCode == RESULT_OK) {
+    [javac] 		                         ^
+    [javac]   symbol:   variable RESULT_OK
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:282: error: cannot find symbol
+    [javac] 					nodeMainExecutorService.startMaster();
+    [javac] 					^
+    [javac]   symbol:   variable nodeMainExecutorService
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:287: error: cannot find symbol
+    [javac] 						robotDescription = (RobotDescription) data
+    [javac] 						^
+    [javac]   symbol:   variable robotDescription
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:287: error: cannot find symbol
+    [javac] 						robotDescription = (RobotDescription) data
+    [javac] 						                    ^
+    [javac]   symbol:   class RobotDescription
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:290: error: cannot find symbol
+    [javac] 						robotNameResolver.setRobotName(robotDescription
+    [javac] 						                               ^
+    [javac]   symbol:   variable robotDescription
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:290: error: cannot find symbol
+    [javac] 						robotNameResolver.setRobotName(robotDescription
+    [javac] 						^
+    [javac]   symbol:   variable robotNameResolver
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:294: error: cannot find symbol
+    [javac] 						validateRobot(robotDescription.getRobotId());
+    [javac] 						              ^
+    [javac]   symbol:   variable robotDescription
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:296: error: cannot find symbol
+    [javac] 						uri = new URI(robotDescription.getRobotId()
+    [javac] 						              ^
+    [javac]   symbol:   variable robotDescription
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:301: error: cannot find symbol
+    [javac] 					nodeMainExecutorService.setMasterUri(uri);
+    [javac] 					^
+    [javac]   symbol:   variable nodeMainExecutorService
+    [javac]   location: class AppChooser
+    [javac]/rosandroid/android_app_chooser/src/org/ros/android/android_app_chooser/AppChooser.java:313: error: cannot find symbol
+    [javac] 						AppChooser.this.init(nodeMainExecutorService);
+    [javac] 						                     ^
+    [javac]   symbol: variable nodeMainExecutorService
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 100 errors
+
+BUILD FAILED
+/opt/android-studio/sdk/tools/ant/build.xml:720: The following error occurred while executing this line:
+/opt/android-studio/sdk/tools/ant/build.xml:734: Compile failed; see the compiler error output for details.
+
+Total time: 3 seconds
+:android_app_chooser:debug FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':android_app_chooser:debug'.
+> Process 'command 'ant'' finished with non-zero exit value 1
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.

@@ -1,0 +1,62 @@
+{
+    "osrf/mentor2": {
+        "project_file": "data/repositories/osrf/mentor2.json",
+        "project_path": "data/repositories/osrf/mentor2/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/mentor2"
+    },
+    "osrf/gazebo_demos": {
+        "project_file": "data/repositories/osrf/gazebo_demos.json",
+        "project_path": "data/repositories/osrf/gazebo_demos/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/gazebo_demos"
+    },
+    "osrf/gazebo_design": {
+        "project_file": "data/repositories/osrf/gazebo_design.json",
+        "project_path": "data/repositories/osrf/gazebo_design/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/gazebo_design"
+    },
+    "osrf/gz_leaderboard": {
+        "project_file": "data/repositories/osrf/gz_leaderboard.json",
+        "project_path": "data/repositories/osrf/gz_leaderboard/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/gz_leaderboard"
+    },
+    "osrf/gzue4bridge": {
+        "project_file": "data/repositories/osrf/gzue4bridge.json",
+        "project_path": "data/repositories/osrf/gzue4bridge/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/gzue4bridge"
+    },
+    "osrf/huro-cup-spring-school-2015": {
+        "project_file": "data/repositories/osrf/huro-cup-spring-school-2015.json",
+        "project_path": "data/repositories/osrf/huro-cup-spring-school-2015/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/huro-cup-spring-school-2015"
+    },
+    "osrf/manifold": {
+        "project_file": "data/repositories/osrf/manifold.json",
+        "project_path": "data/repositories/osrf/manifold/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/manifold"
+    },
+    "osrf/mesh_to_sdf": {
+        "project_file": "data/repositories/osrf/mesh_to_sdf.json",
+        "project_path": "data/repositories/osrf/mesh_to_sdf/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/mesh_to_sdf"
+    },
+    "osrf/rosandroid": {
+        "project_file": "data/repositories/osrf/rosandroid.json",
+        "project_path": "data/repositories/osrf/rosandroid/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/rosandroid"
+    },
+    "osrf/rosjava_zeroconf": {
+        "project_file": "data/repositories/osrf/rosjava_zeroconf.json",
+        "project_path": "data/repositories/osrf/rosjava_zeroconf/",
+        "is_fork": false,
+        "github_repo": "https://github.com/osrf/rosjava_zeroconf"
+    }
+}
